@@ -1,0 +1,9 @@
+<script type="text/javascript">
+	var email = decodeURIComponent(document.URL.substring(document.URL.indexOf("email=")+6));
+	alert(email + " successfully unsubscribed.");
+	(function()
+	{      
+	    open('', '_self').close();
+	    return false;   
+	})();
+</script>

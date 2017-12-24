@@ -1,0 +1,5 @@
+cron:
+- description: daily space blog newsletter
+  url: /orbitalupdate
+  schedule: every 5 minutes from 8:20 to 8:30
+  timezone: America/Chicago

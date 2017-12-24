@@ -1,0 +1,21 @@
+indexes:
+
+- kind: Planet
+  ancestor: yes
+  properties:
+  - name: date
+    direction: desc
+- kind: Subscriber
+  ancestor: yes
+  properties:
+  - name: user
+- kind: Subscriber
+  ancestor: yes
+  properties:
+  - name: email
+- kind: Subscriber
+  properties:
+  - name: user
+- kind: Subscriber
+  properties:
+  - name: email

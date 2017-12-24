@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cronentries>
+  <cron>
+    <url>/orbitalupdate</url>
+    <description>daily space blog newsletter</description>
+    <schedule>every day 17:00</schedule>
+    <timezone>America/Chicago</timezone>
+  </cron>
+</cronentries>
